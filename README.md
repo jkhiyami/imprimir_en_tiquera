@@ -1,4 +1,4 @@
-# Imprimir_en_tiquera
+# Imprimir en impresora tiquera o matriz de punto.
 Imprimir con PHP y FPDF en una Tiquera o impresora Matriz de punto.
 Espero les sea de mucha ayuda este ejemplo.
 
