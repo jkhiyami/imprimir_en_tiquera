@@ -12,4 +12,4 @@ se debe **instalar** la tiquera o impresora en modo **Genery/Text** y asignar el
 por donde se va a Imprimir. (Si mejoran este código, por favor compartir).
 
 **Tips:**
-Si se va a imprimir un tique en una impresora matriz de punto, el tamaño de la letra no debe ser menor a 7, la impresión de las letras se monta una encima de la otra al imprimir la línea.
+Si se va a imprimir en una impresora matriz de punto, el tamaño de la letra no debe ser menor a 7, la impresión de las letras se monta una encima de la otra al imprimir la línea.
