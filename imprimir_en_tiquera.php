@@ -1,5 +1,6 @@
 <?php
-    require("../../inc/php/fpdf/fpdf.php");
+    # Libreria FPDF
+    require("fpdf.php");
     $pdf = new FPDF("P","mm", array(120,80));
     $pdf->AddPage();
     $pdf->SetFont('Courier',"",8);
