@@ -1,4 +1,14 @@
 <?php
+    # Realizado: Jorge Khiyami
+    # Fecha de Creación: 08/03/2017
+    # Fecha de Modificación: 08/03/2017
+    # Lugar: Guanare, Edo. Portuguessa - Venezuela
+    # email: jorgekhiyami@gmail.com
+    #
+    # Permite imprimir en una impresora Tiquera o Matriz de Punto con la librería FPDF,
+    # se debe instalar la tiquera o impresora en modo Genery/Text y asignar el puerto
+    # por donde se va a Imprimir. (Si mejoran este código, por favor compartir).
+    #
     # Libreria FPDF
     require("fpdf.php");
     $pdf = new FPDF("P","mm", array(120,80));
@@ -10,7 +20,7 @@
     $pdf->Text(12,20, utf8_decode('UTILIZANDO'));
     $pdf->Text(22,24, utf8_decode('PHP'));
     $pdf->Text(7,28, utf8_decode('----------------------------'));
-    $pdf->Text(7,32, 'Ced/Rif :'.utf8_decode($cedrif));
+    $pdf->Text(7,32, 'CED/RIF :'.utf8_decode($variable));
     $pdf->Text(7,36, "IMPRESO EL DIA: ". Date("d/m/Y"));
     $pdf->Output();
 ?>
